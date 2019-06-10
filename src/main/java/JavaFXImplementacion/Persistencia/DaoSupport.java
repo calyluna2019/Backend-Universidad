@@ -1,4 +1,7 @@
-package JDBC;
+package JavaFXImplementacion.Persistencia;
+
+import JDBC.ConnectionManager;
+import JDBC.Entidad;
 
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;

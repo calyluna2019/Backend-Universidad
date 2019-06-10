@@ -31,7 +31,7 @@ public class DaoTest {
         carrera.setNombre("Analista de Sistemas");
 
         carreraDao.grabar(carrera);
-        */
+
 
         MateriaDao materiaDao = new MateriaDao(connectionManager);
         Materia materia = new Materia();
@@ -39,8 +39,13 @@ public class DaoTest {
         materia.setCargaHoraria(8);
 
         materiaDao.grabar(materia);
+        */
 
-
+        MateriaDao materiaDao = new MateriaDao(connectionManager);
+        Materia materia2 = new Materia();
+        materia2.setNombre("objeto 2");
+        materia2.setCargaHoraria(23);
+        materiaDao.grabar(materia2);
 
     }
 }
